@@ -1,8 +1,16 @@
 /*Section "navbar"*/
 
-.navbar-header a, .nav a {
+.navbar-header a, .nav a, .navbar-inverse .navbar-nav li a {
   font-size: 24px;
   color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: rgba(1,0,0,0.7);
 }
 
 
