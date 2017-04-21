@@ -1,0 +1,501 @@
+/*Section "navbar"*/
+
+.navbar-header a, .nav a {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+
+/*Section "home" includes hero image and name*/
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#home {
+  background-image: url("./img/island.jpg");
+  background-size: cover;
+  background-position: bottom;;
+  background-repeat: no-repeat;
+  height: 620px;
+  background-blend-mode: multiply;
+  background-color: #b3b3b3;
+  background-attachment: fixed;
+}
+
+.header {
+  text-align: center;
+  height: 360px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: Source Sans Pro, Helvetica;
+  padding-top: 190px;
+  padding-bottom: 10px;
+}
+
+.header h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 60px;
+  color: #ffffff;
+  font-family: 'Droid Serif', serif;
+}
+
+.header h2 {
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.line {
+  margin: auto;
+  background-color: #5B9BBC;
+  margin-top: 10px;
+  width: 470px;
+  display: block;
+  height: 3px;
+  padding: 0px;
+}
+
+.icon:hover {
+  animation-iteration-count: infinite;
+}
+
+/*@media (min-width: 1200px) {
+  .col-lg-9{
+    float: none;
+    margin: auto;
+    width: 71%;
+  }
+}*/
+
+#ico {
+  width: 71%;
+}
+
+
+/*Section "Portfolio" includes featured projects*/
+
+#portfolio {
+  background-color: #ffffff;
+  height: 630px;
+  width: auto;
+}
+
+.featured {
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+}
+
+.featured h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 50px 0px 40px 0px;
+  font-family: 'Droid Serif', serif;
+}
+
+.top-projects {
+  width: 24.2%;
+  margin: 0px 5px 0px 5px;
+  padding: 0px;
+}
+
+.top-projects img {
+  width: 100%;
+  height: 400px;
+}
+
+.top-projects h3 {
+  padding: 10px 0px 0px 0px;
+  color: black;
+  text-align: center;
+}
+
+.top-projects:hover {
+  opacity: 0.5;
+}
+
+
+/*Section "Portfolio" includes additional projects*/
+
+#portfolio .pr {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#add-projects {
+  height: 300px;
+  width: auto;
+}
+
+.additional {
+  text-align: center;
+}
+
+.additional h2 {
+  text-align: center;
+  font-size: 34px;
+  padding: 65px 0px 30px 0px;
+}
+
+#git a {
+  border: 2px solid #168077;
+  background-color: #168077;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#git:hover {
+  animation-iteration-count: infinite;
+}
+
+
+/*Section for Featured Projects*/
+
+.services-page {
+  width: 60%;
+  margin: 0 auto;
+  float: none;
+}
+
+/*@media (min-width: 1200px) {
+  .col-lg-8 {
+    float: none;
+  }
+}*/
+
+.services-page img {
+  width: 100%;
+  margin: 70px 0px 70px 0px;
+}
+
+.purpose {
+  text-align: left;
+  padding: 0px 270px 0px 270px;
+  margin: 50px 0px -50px 0px;
+}
+
+.purpose h2 {
+  font-size: 34px;
+}
+
+.purpose p {
+  font-size: 16px;
+}
+
+/*Section"testimonial*/
+
+#testimonial {
+  color: #ffffff;
+  background-color: #212127;
+  height: 320px;
+}
+
+#tes {
+  width: 87%;
+  padding-left: 190px;
+}
+
+#testimonial p {
+  font-size: 27px;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#testimonial h3 {
+  font-size: 27px;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*Section "about"*/
+
+#about .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.aboutme h3, .resume h3 {
+  font-size: 30px;
+}
+
+.aboutme p, .resume p {
+  font-size: 16px;
+}
+
+.dwn {
+  margin-top: 57px;
+}
+
+.dwn-two {
+  margin-top: 80px;
+}
+
+.bld {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.dwn-top {
+  margin-top: 30px;
+}
+
+.road {
+  background-image: url("./img/curvy-road.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-attachment: local;
+  width: 50%;
+}
+
+.tahoe {
+  background-image: url("./img/tahoe.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-attachment: local;
+  width: 50%;
+}
+
+.trees {
+  background-image: url("./img/redwoods.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-attachment: local;
+  width: 50%;
+}
+
+
+/*Section "contact" includes the form and contact info*/
+
+#contact .form {
+  background-image: url("./img/sea-boat.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 620px;
+  background-blend-mode: multiply;
+  background-color: #b3b3b3;
+  background-attachment: fixed;
+}
+
+.form h2 {
+  margin-top: 0px;
+  padding: 105px 0px 0px 0px;
+  font-size: 42px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-7 {
+    float: none;
+    margin: auto;
+  }
+}
+
+.form {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.fill-out {
+  opacity: 0.6;
+  padding: 0px;
+  border: 0px;
+}
+
+.name {
+  width: 48.5%;
+  margin-right: 10px;
+}
+
+.email {
+  width: 48.5%;
+  margin-left: 10px;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 15px;
+}
+
+#contact .connect {
+  height: 310px;
+  width: auto;
+  color: #ffffff;
+  background-color: #212127;
+  background-attachment: local;
+  text-align: center;
+  float: none;
+}
+
+.connect h4 {
+  padding: 50px 0px 0px 0px;
+  font-size: 24px;
+  font-family: 'Droid Serif', serif;
+}
+
+#contact .row {
+  margin: 0px;
+  padding: 0px;
+  float: none;
+}
+
+.foot {
+  width: 77%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-9 {
+    float: right;
+    width: 77%;
+    margin: 0 auto;
+  }
+}
+
+.icon {
+  width: 23%;
+  display: inline-block;
+}
+
+.icon a {
+  text-decoration: none;
+}
+
+.icon i {
+  padding: 25px 20px 10px 20px;
+  color: #ffffff;
+}
+
+.icon h4 {
+  color: #ffffff;
+  padding: 10px 0px 0px 0px;
+}
+
+.icon:hover {
+  animation-iteration-count: infinite;
+}
+
+
+/*Section for media queries for tablet*/
+
+  @media (min-width: 768px) and (max-width: 992px) {
+
+    #ico {
+      text-align: right;
+      width: 125%;
+    }
+
+    #portfolio {
+      height: 1140px;
+    }
+
+    .top-projects {
+      width: 48.5%;
+    }
+
+    .top-projects h3 {
+      padding-bottom: 30px;
+    }
+
+    .road, .tahoe, .trees {
+      width: 100%;
+    }
+
+    .aboutme, .resume {
+      margin: 0px 0px 40px 0px;
+    }
+
+    .dwn-two {
+    margin-top: 50px;
+    }
+
+    .submit {
+      width: 100%;
+      background-color: ivory;
+    }
+
+  }
+
+
+/*Section for media queries for phone*/
+
+  @media (max-width: 768px) {
+
+    .header {
+      width: 100%;
+    }
+
+    #ico {
+      text-align: right;
+      width: 125%;
+    }
+
+    .top-projects {
+      width: 100%;
+    }
+
+    .top-projects h3 {
+      margin-bottom: 50px;
+    }
+
+    #portfolio {
+      height: 2050px;
+    }
+
+    .additional h2 {
+      margin-top: 30px;
+    }
+
+    .road, .tahoe, .trees {
+      width: 100%;
+    }
+
+    .aboutme, .resume {
+      margin-bottom: 50px;
+    }
+
+   .name, .email {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+   }
+
+   .aus {
+    margin-top: 500px;
+   }
+
+   textarea {
+      height: 90%;
+   }
+
+   #contact .connect {
+     margin-top: 0px;
+     height: 500px;
+     padding: 0px;
+   }
+
+   .aus h4 {
+     margin-top: 250px;
+   }
+
+   #map {
+     margin: 0px;
+     padding: 0px;
+   }
+
+  }
