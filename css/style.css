@@ -1,7 +1,7 @@
 /*Section "navbar"*/
 
 .navbar-header a, .nav a, .navbar-inverse .navbar-nav li a {
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -71,14 +71,6 @@
   animation-iteration-count: infinite;
 }
 
-/*@media (min-width: 1200px) {
-  .col-lg-9{
-    float: none;
-    margin: auto;
-    width: 71%;
-  }
-}*/
-
 #ico {
   width: 71%;
 }
@@ -99,7 +91,7 @@
 
 .featured h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 44px;
   padding: 50px 0px 40px 0px;
   font-family: 'Droid Serif', serif;
 }
@@ -121,7 +113,11 @@
   text-align: center;
 }
 
-.top-projects:hover {
+.top-projects-hov:hover {
+  background-color: black;
+}
+
+.top-projects img:hover {
   opacity: 0.5;
 }
 
@@ -172,12 +168,6 @@
   float: none;
 }
 
-/*@media (min-width: 1200px) {
-  .col-lg-8 {
-    float: none;
-  }
-}*/
-
 .services-page img {
   width: 100%;
   margin: 70px 0px 70px 0px;
@@ -197,7 +187,15 @@
   font-size: 16px;
 }
 
-/*Section"testimonial*/
+
+/*Section for Pet Services Project*/
+
+#full-pet {
+  padding-top: 25px;
+}
+
+
+/*Section "testimonial"*/
 
 #testimonial {
   color: #ffffff;
@@ -223,6 +221,7 @@
   text-align: center;
   padding-top: 10px;
 }
+
 
 /*Section "about"*/
 
@@ -499,11 +498,6 @@
 
    .aus h4 {
      margin-top: 250px;
-   }
-
-   #map {
-     margin: 0px;
-     padding: 0px;
    }
 
   }
