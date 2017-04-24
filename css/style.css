@@ -5,12 +5,20 @@
   color: #ffffff;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-brand {
   color: #ffffff;
 }
 
 .navbar {
   background-color: rgba(1,0,0,0.7);
+}
+
+.navbar-header a:hover {
+  color: #5B9BBC;
+}
+
+.nav a:hover {
+  color: black;
 }
 
 
@@ -164,7 +172,7 @@
 }
 
 .top-projects img:hover {
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 
