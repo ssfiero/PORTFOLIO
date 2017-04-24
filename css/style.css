@@ -76,12 +76,56 @@
 }
 
 
+/*Section for Resume*/
+
+#resume {
+  background-color: #ffffff;
+  height: 300px;
+  width: auto;
+  text-align: center;
+}
+
+.additional h1 {
+  text-align: center;
+  font-size: 32px;
+  padding: 35px 0px 0px 0px;
+}
+
+.additional h2 {
+  text-align: center;
+  font-size: 32px;
+  padding: 0px 0px 35px 0px;
+}
+
+#git a {
+  border: 2px solid #168077;
+  background-color: #168077;
+  padding: 10px 20px 10px 20px;
+  margin: 20px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold
+}
+
+#git a:hover {
+  background-color: #233140;
+  border: 2px solid #233140;
+}
+
+
 /*Section "Portfolio" includes featured projects*/
 
 #portfolio {
-  background-color: #ffffff;
-  height: 630px;
+  background-color: #eeeeee;
+  height: 740px;
   width: auto;
+}
+
+#portfolio .pr {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .featured {
@@ -91,26 +135,28 @@
 
 .featured h2 {
   text-align: center;
-  font-size: 44px;
+  font-size: 42px;
   padding: 50px 0px 40px 0px;
   font-family: 'Droid Serif', serif;
 }
 
 .top-projects {
-  width: 24.2%;
-  margin: 0px 5px 0px 5px;
+  width: 22%;
+  margin: 0px 18px 0px 18px;
   padding: 0px;
 }
 
 .top-projects img {
   width: 100%;
-  height: 400px;
+  height: 350px;
 }
 
 .top-projects h3 {
-  padding: 10px 0px 0px 0px;
+  padding: 30px 0px 30px 0px;
+  margin: 0px;
   color: black;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .top-projects-hov:hover {
@@ -118,49 +164,15 @@
 }
 
 .top-projects img:hover {
-  opacity: 0.5;
-}
-
-
-/*Section "Portfolio" includes additional projects*/
-
-#portfolio .pr {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-#add-projects {
-  height: 300px;
-  width: auto;
-}
-
-.additional {
-  text-align: center;
-}
-
-.additional h2 {
-  text-align: center;
-  font-size: 34px;
-  padding: 65px 0px 30px 0px;
-}
-
-#git a {
-  border: 2px solid #168077;
-  background-color: #168077;
-  padding: 10px 20px 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-#git:hover {
-  animation-iteration-count: infinite;
+  opacity: 0.4;
 }
 
 
 /*Section for Featured Projects*/
+
+#full-pet, #full-winery, #full-band, #full-professional {
+  padding-top: 25px;
+}
 
 .services-page {
   width: 60%;
@@ -188,19 +200,12 @@
 }
 
 
-/*Section for Featured Project*/
-
-#full-pet, #full-winery, #full-band, #full-professional {
-  padding-top: 25px;
-}
-
-
 /*Section "testimonial"*/
 
 #testimonial {
   color: #ffffff;
   background-color: #212127;
-  height: 320px;
+  height: 360px;
 }
 
 #tes {
@@ -209,17 +214,17 @@
 }
 
 #testimonial p {
-  font-size: 27px;
-  font-family: 'Droid Serif', serif;
-  text-align: center;
-  padding-top: 50px;
-}
-
-#testimonial h3 {
-  font-size: 27px;
+  font-size: 24px;
   font-family: 'Droid Serif', serif;
   text-align: center;
   padding-top: 10px;
+}
+
+#testimonial h3 {
+  font-size: 24px;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+  padding-top: 25px;
 }
 
 
@@ -239,16 +244,16 @@
 }
 
 .dwn {
-  margin-top: 57px;
+  margin-top: 50px;
 }
 
 .dwn-two {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .bld {
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .dwn-top {
