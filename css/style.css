@@ -127,13 +127,12 @@
 
 #portfolio {
   background-color: #eeeeee;
-  height: 740px;
+  height: 1100px;
   width: auto;
 }
 
 #portfolio .pr {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 30px 20px;
 }
 
 .featured {
@@ -156,7 +155,7 @@
 
 .top-projects img {
   width: 100%;
-  height: 350px;
+  height: 300px;
 }
 
 .top-projects h3 {
@@ -178,7 +177,7 @@
 
 /*Section for Featured Projects*/
 
-#full-pet, #full-winery, #full-band, #full-professional {
+#full-pet, #full-winery, #full-band, #full-professional, #full-products, #full-towers, #full-contact {
   padding-top: 25px;
 }
 
@@ -229,10 +228,10 @@
 }
 
 #testimonial h3 {
-  font-size: 24px;
+  font-size: 30px;
   font-family: 'Droid Serif', serif;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 
 
