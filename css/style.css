@@ -30,14 +30,16 @@
 }
 
 #home {
-  background-image: url("./img/island.jpg");
+  background-image: url("./img/lights-orange.jpeg");
   background-size: cover;
   background-position: bottom;;
   background-repeat: no-repeat;
   height: 620px;
   background-blend-mode: multiply;
-  background-color: #b3b3b3;
+  background-color: #4d5f75;
+  opacity: 0.9;
   background-attachment: fixed;
+  background-position: 50% 50%;
 }
 
 .header {
@@ -88,7 +90,7 @@
 
 #resume {
   background-color: #ffffff;
-  height: 300px;
+  height: 280px;
   width: auto;
   text-align: center;
 }
@@ -168,6 +170,7 @@
 
 .top-projects-hov:hover {
   background-color: black;
+  border-radius: 2px;
 }
 
 .top-projects img:hover {
@@ -301,14 +304,16 @@
 /*Section "contact" includes the form and contact info*/
 
 #contact .form {
-  background-image: url("./img/sea-boat.jpg");
+  background-image: url("./img/lights-blur.jpeg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   height: 620px;
   background-blend-mode: multiply;
-  background-color: #b3b3b3;
+  background-color: #455a64;
+  opacity: 0.9;
   background-attachment: fixed;
+  background-position: 50% 50%;
 }
 
 .form h2 {
