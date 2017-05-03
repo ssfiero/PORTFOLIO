@@ -240,64 +240,144 @@
 
 /*Section "about"*/
 
-#about .row {
-  margin-left: 0px;
-  margin-right: 0px;
+#about h1 {
+  margin: 80px 0px 40px 0px;
+  text-align: center;
 }
 
-.aboutme h3, .resume h3 {
-  font-size: 30px;
+#timeline {
+  width: 80%;
+  margin: 50px auto;
+  position: relative;
+  margin-bottom: 80px;
 }
 
-.aboutme p, .resume p {
-  font-size: 16px;
+#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 4px;
+  height: 100%;
+  background: #25303B;
 }
 
-.dwn {
-  margin-top: 50px;
+#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
 }
 
-.dwn-two {
-  margin-top: 40px;
+#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
-.bld {
-  font-weight: bold;
-  margin-top: 30px;
+#timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+  box-shadow: 10px 10px 10px #656565;
 }
 
-.dwn-top {
-  margin-top: 30px;
+#timeline article div.inner span.icon {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 0px 7px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #25303B;
+  color: rgba(255,255,255,0.5);
+  box-shadow: 0 0 0 10px #25303B;
 }
 
-.road {
-  background-image: url("./img/curvy-road.jpg");
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  height: 400px;
-  background-attachment: local;
-  width: 50%;
+#timeline article div.inner span.icon span {
+  display: block;
+  text-align: center;
 }
 
-.tahoe {
-  background-image: url("./img/tahoe.jpg");
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  height: 400px;
-  background-attachment: local;
-  width: 50%;
+.fa {
+  display: table-row-group;
 }
 
-.trees {
-  background-image: url("./img/redwoods.jpg");
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  height: 400px;
-  background-attachment: local;
-  width: 50%;
+#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+
+#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  	width: 10px;
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+
+#timeline article div.inner p {
+  padding: 0px;
+  margin: 20px;
+  font-size: 14px;
+  background: #fff;
+  color: #656565;
+}
+
+#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+
+#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+
+#timeline article:nth-child(1) div.inner h2 {
+  background: #0F8B68;
+}
+
+#timeline article:nth-child(1) div.inner h2:after {
+  background: #0F8B68;
+}
+
+#timeline article:nth-child(2) div.inner h2 {
+  background: #0C3D4E;
+}
+
+#timeline article:nth-child(2) div.inner h2:after {
+  background: #0C3D4E;
+}
+
+#timeline article:nth-child(3) div.inner h2 {
+  background: #ED9459;
+}
+
+#timeline article:nth-child(3) div.inner h2:after {
+  background: #ED9459;
+}
+
+#timeline article:nth-child(4) div.inner h2 {
+  background: #0C4E6E;
+}
+
+#timeline article:nth-child(4) div.inner h2:after {
+  background: #0C4E6E;
 }
 
 
