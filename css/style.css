@@ -83,6 +83,7 @@
 
 #ico {
   width: 71%;
+  padding-top: 30px;
 }
 
 
@@ -448,8 +449,8 @@
 }
 
 .connect h4 {
-  padding: 50px 0px 0px 0px;
-  font-size: 24px;
+  padding: 50px 0px 30px 0px;
+  font-size: 32px;
   font-family: 'Droid Serif', serif;
 }
 
