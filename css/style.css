@@ -1,4 +1,8 @@
-/*Section "navbar"*/
+/*
+==================================
+Section "navbar"
+==================================
+*/
 
 .navbar-header a, .nav a, .navbar-inverse .navbar-nav li a {
   font-size: 20px;
@@ -22,7 +26,11 @@
 }
 
 
-/*Section "home" includes hero image and name*/
+/*
+==================================
+Section "home" includes hero image and name
+==================================
+*/
 
 .row {
   margin-left: 0px;
@@ -30,7 +38,7 @@
 }
 
 #home {
-  background-image: url("./img/lights-orange.jpeg");
+  background-image: url("./img/austin.jpg");
   background-size: cover;
   background-position: bottom;;
   background-repeat: no-repeat;
@@ -48,7 +56,7 @@
   font-size: 40px;
   font-weight: 900;
   font-family: Source Sans Pro, Helvetica;
-  padding-top: 190px;
+  padding-top: 200px;
   padding-bottom: 10px;
 }
 
@@ -77,60 +85,64 @@
   padding: 0px;
 }
 
-.icon:hover {
-  animation-iteration-count: infinite;
-}
 
-#ico {
-  width: 71%;
-  padding-top: 30px;
-}
-
-
-/*Section for Resume*/
+/*
+==================================
+Section for Resume
+==================================
+*/
 
 #resume {
   background-color: #ffffff;
-  height: 280px;
+  height: 365px;
   width: auto;
   text-align: center;
+}
+
+.hello {
+  padding: 35px 0px 0px 0px;
 }
 
 .additional h1 {
   text-align: center;
   font-size: 32px;
-  padding: 35px 0px 0px 0px;
+  color: black;
 }
 
 .additional h2 {
   text-align: center;
   font-size: 32px;
   padding: 0px 0px 35px 0px;
+  color: black;
+  font-weight: normal;
 }
 
-#git a {
-  border: 2px solid #168077;
-  background-color: #168077;
-  padding: 10px 20px 10px 20px;
-  margin: 20px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: bold
+#ico {
+  padding: 0px 300px;
 }
 
-#git a:hover {
-  background-color: #233140;
-  border: 2px solid #233140;
+#ico .icon {
+  width: 20%;
+}
+
+.icon a i {
+  color: #168077;
+}
+
+.icon:hover {
+  animation-iteration-count: infinite;
 }
 
 
-/*Section "Portfolio" includes featured projects*/
+/*
+==================================
+Section "Portfolio" includes featured projects
+==================================
+*/
 
 #portfolio {
   background-color: #eeeeee;
-  height: 1100px;
+  height: 1170px;
   width: auto;
 }
 
@@ -163,10 +175,33 @@
 
 .top-projects h3 {
   padding: 30px 0px 30px 0px;
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
   color: black;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #fff;
+}
+
+.top-projects h4 {
+  padding: 10px 0px 10px 0px;
+  font-size: 22px;
+  margin: 0px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #168077;
+  border: 2px solid #168077;;
+  border-radius: 10px;
+  width: 150px;
+  margin: auto;
+}
+
+.top-projects a {
+  text-decoration: none;
+}
+
+.top-projects h4:hover {
+  color: #168077;
+  background-color: #fff;
 }
 
 .top-projects-hov:hover {
@@ -179,7 +214,11 @@
 }
 
 
-/*Section for Featured Projects*/
+/*
+==================================
+Section for Featured Projects
+==================================
+*/
 
 #full-pet, #full-winery, #full-band, #full-professional, #full-products, #full-towers, #full-contact {
   padding-top: 25px;
@@ -211,7 +250,11 @@
 }
 
 
-/*Section "testimonial"*/
+/*
+==================================
+Section "testimonial"
+==================================
+*/
 
 #testimonial {
   color: #ffffff;
@@ -239,7 +282,11 @@
 }
 
 
-/*Section "about"*/
+/*
+==================================
+Section "about"
+==================================
+*/
 
 #about h1 {
   margin: 80px 0px 40px 0px;
@@ -382,10 +429,14 @@
 }
 
 
-/*Section "contact" includes the form and contact info*/
+/*
+==================================
+Section "contact" includes the form and contact info
+==================================
+*/
 
 #contact .form {
-  background-image: url("./img/lights-blur.jpeg");
+  background-image: url("./img/texas.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -460,21 +511,24 @@
   float: none;
 }
 
-.foot {
-  width: 77%;
-  margin: 0 auto;
+.row .bot-icon {
+  padding: 0px 250px;
+  float: none;
+}
+
+.bot-icon .icon a i {
+  color: #fff;
 }
 
 @media (min-width: 1200px) {
   .col-lg-9 {
-    float: right;
     width: 77%;
     margin: 0 auto;
   }
 }
 
 .icon {
-  width: 23%;
+  width: 20%;
   display: inline-block;
 }
 
@@ -497,7 +551,11 @@
 }
 
 
-/*Section for media queries for tablet*/
+/*
+==================================
+Section for media queries for tablet
+==================================
+*/
 
   @media (min-width: 768px) and (max-width: 992px) {
 
@@ -538,7 +596,11 @@
   }
 
 
-/*Section for media queries for phone*/
+/*
+==================================
+Section for media queries for phone
+==================================
+*/
 
   @media (max-width: 768px) {
 
