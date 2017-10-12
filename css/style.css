@@ -13,12 +13,12 @@ Section "navbar"
   color: #ffffff;
 }
 
-.navbar {
+.navbar.scrolled {
   background-color: rgba(1,0,0,0.7);
 }
 
 .navbar-header a:hover {
-  color: #5B9BBC;
+  color: #2758b2;
 }
 
 .nav a:hover {
@@ -94,7 +94,7 @@ Section for Resume
 
 #resume {
   background-color: #ffffff;
-  height: 365px;
+  height: 445px;
   width: auto;
   text-align: center;
 }
@@ -111,14 +111,15 @@ Section for Resume
 
 .additional h2 {
   text-align: center;
-  font-size: 32px;
-  padding: 0px 0px 35px 0px;
+  font-size: 24px;
+  padding: 0px 120px;
   color: black;
-  font-weight: normal;
+  font-weight: 200;
+  line-height: normal;
 }
 
 #ico {
-  padding: 0px 300px;
+  padding: 35px 300px;
 }
 
 #ico .icon {
@@ -126,11 +127,21 @@ Section for Resume
 }
 
 .icon a i {
-  color: #168077;
+  color: #273859;
 }
 
-.icon:hover {
-  animation-iteration-count: infinite;
+.icon a i:hover {
+  color: #2758b2;;
+}
+
+/*Animation for icon row*/
+.animate-f {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
 }
 
 
@@ -142,7 +153,7 @@ Section "Portfolio" includes featured projects
 
 #portfolio {
   background-color: #eeeeee;
-  height: 1170px;
+  height: 1100px;
   width: auto;
 }
 
@@ -171,6 +182,7 @@ Section "Portfolio" includes featured projects
 .top-projects img {
   width: 100%;
   height: 300px;
+  position: relative;
 }
 
 .top-projects h3 {
@@ -181,27 +193,36 @@ Section "Portfolio" includes featured projects
   background-color: #fff;
 }
 
-.top-projects h4 {
+.top-projects .btn-info {
   padding: 10px 0px 10px 0px;
   font-size: 22px;
-  margin: 0px;
-  color: #fff;
+  color: black;
   text-align: center;
-  margin-top: 10px;
-  background-color: #168077;
-  border: 2px solid #168077;;
+  background-color: #fff;
+  border: 2px solid #fff;
   border-radius: 10px;
   width: 150px;
-  margin: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top-projects .btn-info:hover {
+  color: #fff;
+  background-color: #273859;
+  border: 2px solid #273859;
 }
 
 .top-projects a {
   text-decoration: none;
 }
 
-.top-projects h4:hover {
-  color: #168077;
-  background-color: #fff;
+.top-projects-hov {
+  overflow: hidden;
+}
+
+.top-projects:hover img {
+  /*transform: scale(1.2);*/
+  opacity: 0.3;
 }
 
 .top-projects-hov:hover {
@@ -209,9 +230,26 @@ Section "Portfolio" includes featured projects
   border-radius: 2px;
 }
 
-.top-projects img:hover {
-  opacity: 0.3;
+
+/*
+==================================
+For Modals
+==================================
+*/
+
+.modal {
+  margin-top: 125px;
 }
+
+.modal-title {
+  font-size: 28px;
+}
+
+.modal-body p {
+  text-align:left;
+  padding: 0px 30px;
+}
+
 
 
 /*
@@ -260,6 +298,7 @@ Section "testimonial"
   color: #ffffff;
   background-color: #212127;
   height: 360px;
+  margin-bottom: 100px;
 }
 
 #tes {
@@ -280,6 +319,60 @@ Section "testimonial"
   text-align: center;
   padding-top: 30px;
 }
+
+
+/*
+==================================
+Section "carousel"
+==================================
+*/
+
+#street-art {
+  background-color: #fff;
+  height: 560px;
+  margin-bottom: 100px;
+}
+
+#street-art h1 {
+  font-size: 40px;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.carousel-inner > .item > img {
+  height: 500px;
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+  color: black;
+  font-size: 35px;
+}
+
+
+/*
+==================================
+Section "quotes"
+==================================
+*/
+
+#quotes {
+  color: #ffffff;
+  background-color: #212127;
+  height: 360px;
+}
+
+/*.carousel {
+  height: 360px;
+}*/
+
+
 
 
 /*
@@ -544,9 +637,10 @@ Section "contact" includes the form and contact info
 .icon h4 {
   color: #ffffff;
   padding: 10px 0px 0px 0px;
+  font-size: 20px;
 }
 
-.icon:hover {
+.bot-icon .icon:hover {
   animation-iteration-count: infinite;
 }
 
