@@ -74,39 +74,40 @@
   </section>
 
 
-<!-- Section "Resume" includes PDF of resume -->
+<!-- Section "Resume" includes icons with links -->
 
   <section id="resume">
-    <div class="additional col-lg-12">
-      <div class="hello">
+    <div class="animate-f fadeInUp additional col-lg-12">
+      <div class="animate-f fadeInUp hello">
         <h1>Hi, my name is Steven!</h1>
-        <h1>I am a Full Stack Web Developer from Austin, TX.</h1>
+        <h2>I am a Full Stack Web Developer from Austin, TX.</h2>
+        <h2>I use HTML, CSS, JavaScript, Bootstrap, JQuery, Express, and React to create awesome sites and apps.  I have experience with non-relational databases like MongoDB, and I write server side code with JavaScript in Node.  I have strong project management skills and enjoy learning.  I am looking for mentorship and team based positions.</h2>
+        <h2>Check out the links to learn more about me.</h2>
       </div>
-      <h2>Check out the links to learn more about me.</h2>
 
       <div class="row">
         <div id="ico" class="col-lg-12 col-sm-9 col-xs-9">
-          <div class="animated bounce icon first col-lg-2 col-sm-2 col-xs-2">
+          <div class="animate-f fadeInUp icon first col-lg-2 col-sm-2 col-xs-2">
             <a href="https://www.linkedin.com/in/steven-fiero-297b4a148/">
               <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
             </a>
           </div>
-          <div class="animated bounce icon first col-lg-2 col-sm-2 col-xs-2">
+          <div class="animate-f fadeInUp icon first col-lg-2 col-sm-2 col-xs-2">
             <a href="resume.pdf">
               <i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i>
             </a>
           </div>
-          <div class="animated bounce icon first col-lg-2 col-sm-2 col-xs-2">
+          <div class="animate-f fadeInUp icon first col-lg-2 col-sm-2 col-xs-2">
             <a href="https://github.com/ssfiero">
               <i class="fa fa-github fa-5x" aria-hidden="true"></i>
             </a>
           </div>
-          <div class="animated bounce icon first col-lg-2 col-sm-2 col-xs-2">
+          <div class="animate-f fadeInUp icon first col-lg-2 col-sm-2 col-xs-2">
             <a href="mailto:ssfiero@yahoo.com">
               <i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i>
             </a>
           </div>
-          <div class="animated bounce icon first col-lg-2 col-sm-2 col-xs-2">
+          <div class="animate-f fadeInUp icon first col-lg-2 col-sm-2 col-xs-2">
             <a href="https://www.facebook.com/steven.fiero.5">
               <i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i>
             </a>
@@ -125,62 +126,262 @@
       <div class="featured col-lg-12 col-sm-12 col-xs-12">
         <h2>Featured Projects</h2>
 
+
         <div class="top-projects col-lg-3 col-sm-6 col-xs-12">
           <div class="top-projects-hov">
-            <a href="pet.html"><img src="./css/img/pet-services.jpg"></a>
+            <img src="./css/img/pet-services.jpg">
           </div>
           <h3>Pet Services</h3>
-          <!-- <a href="https://ssfiero.github.io/intro-workbook/10LessonTen/Checkpoint2/"><h4>View</h4></a> -->
+
+          <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal-Pet">View More</button>
+
+          <!-- Modal for Pet Services-->
+          <div id="myModal-Pet" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Pet Services Project</h4>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Built with: </strong>HTML5, CSS3, Twitter Bootstrap</p>
+                  <p><strong>Summary: </strong></p>
+                  <p>This website was built for service related company; and since I have two dogs a services for pets site made perfect sense.  Various services, awards, events, and a map were added to the website.</p>
+                  <button type="button" class="btn btn-default" onclick="location.href='pet.html'">View Site</button>
+                  <!-- <a href="https://ssfiero.github.io/intro-workbook/10LessonTen/Checkpoint2/"><h4>View Full Site</h4></a> -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
+
 
         <div class="top-projects col-lg-3 col-sm-6 col-xs-12">
           <div class="top-projects-hov">
-            <a href="winery.html"><img src="./css/img/winery.jpg"></a>
+            <img src="./css/img/winery.jpg">
           </div>
           <h3>Winery</h3>
-            <a href="https://ssfiero.github.io/intro-workbook/15LessonFifteen/Checkpoint3/"><h4>View</h4></a>
+
+          <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal-Winery">View More</button>
+
+          <!-- Modal for Winery -->
+          <div id="myModal-Winery" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Winery Project</h4>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Built with: </strong>HTML5, CSS3, Twitter Bootstrap</p>
+                  <p><strong>Summary: </strong></p>
+                  <p>This website was built for a winery.  Fixed backgrounds were applied to both large images to give a parallax effect.  The site include links to order bottles of wine.</p>
+                  <button type="button" class="btn btn-default" onclick="location.href='https://ssfiero.github.io/intro-workbook/15LessonFifteen/Checkpoint3/'">View Site</button>
+                  <!-- <a href="winery.html">View</a> -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
+
 
         <div class="top-projects col-lg-3 col-sm-6 col-xs-12">
           <div class="top-projects-hov">
-            <a href="band.html"><img src="./css/img/hall-oates.jpg"></a>
+            <img src="./css/img/hall-oates.jpg">
           </div>
           <h3>Band Signup</h3>
-            <!-- <a href="https://ssfiero.github.io/intro-workbook/17LessonSeventeen/in-class-project/"><h4>View</h4></a> -->
+
+          <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal-Band">View More</button>
+
+          <!-- Modal for Band -->
+          <div id="myModal-Band" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Band Signup Project</h4>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Built with: </strong>HTML5, CSS3, Twitter Bootstrap, Google Forms</p>
+                  <p><strong>Summary: </strong></p>
+                  <p>This website was built around a signup form that a fan could enter their email into for a newsletter from their favorite band.  The form was built through Google forms, and the back-end has been tested to verify emails are relayed to the correct spreadsheet.</p>
+                  <button type="button" class="btn btn-default" onclick="location.href='band.html'">View Site</button>
+                    <!-- <a href="https://ssfiero.github.io/intro-workbook/17LessonSeventeen/in-class-project/"><h4>View Full Site</h4></a> -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
+
 
         <div class="top-projects col-lg-3 col-sm-6 col-xs-12">
           <div class="top-projects-hov">
-            <a href="professional.html"><img src="./css/img/professional.jpg"></a>
+            <img src="./css/img/professional.jpg">
           </div>
           <h3>Professional</h3>
-          <a href="https://ssfiero.github.io/intro-workbook/Sideling/"><h4>View</h4></a>
+
+          <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal-Prof">View More</button>
+
+          <!-- Modal for Professional Project -->
+          <div id="myModal-Prof" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Professional Project</h4>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Built with: </strong>HTML5, CSS3, Twitter Bootstrap, Google Docs</p>
+                  <p><strong>Summary: </strong></p>
+                  <p>This project was from an actual client, that I worked on with my classmates, with our teacher overseeing.  I experienced the project from conception to delivery.</p>
+                  <p>The website was built on the client's need to have a form someone could enter the information into, and he would find the best service professional for their needs.  When considering competition for this site, Angie's List came to mind in their same approach</p>
+                  <p>The website includes six buttons that link to six different forms that can be filled out based on the customer's needs.  The client specifically requested six different forms.  My solution was that I created a div box to hold all of the forms with the overflow hidden, and only the one specific form would be shown when a button was clicked.</p>
+                  <button type="button" class="btn btn-default" onclick="location.href='https://ssfiero.github.io/intro-workbook/Sideling/'">View Site</button>
+                  <!-- <a href="professional.html">View</a> -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
-    <div class="pr row">
+
+    <div class="pr row row2">
       <div class="featured col-lg-12 col-sm-12 col-xs-12">
         <div class="top-projects col-lg-3 col-sm-6 col-xs-12">
           <div class="top-projects-hov">
-            <a href="products.html"><img src="./css/img/products.jpg"></a>
+            <img src="./css/img/products.jpg">
           </div>
           <h3>Best Selling Products</h3>
+
+          <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal-Products">View More</button>
+
+          <!-- Modal for Best Selling Products -->
+          <div id="myModal-Products" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Best Selling Products</h4>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Built with: </strong>HTML5, CSS3, Twitter Bootstrap</p>
+                  <p><strong>Summary: </strong></p>
+                  <p>This is a single page site built to showcase various products for a company company.</p>
+                  <button type="button" class="btn btn-default" onclick="location.href='products.html'">View Site</button>
+                  <!-- <a href="https://ssfiero.github.io/intro-workbook/17LessonSeventeen/in-class-project/"><h4>View Full Site</h4></a> -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
+
 
         <div class="top-projects col-lg-3 col-sm-6 col-xs-12">
           <div class="top-projects-hov">
-            <a href="towers.html"><img src="./css/img/towers.jpg"></a>
+            <img src="./css/img/towers.jpg">
           </div>
           <h3>Towers of Hanoi</h3>
-          <a href="https://ssfiero.github.io/javascript-workbook/apps/08jquery-towers-of-hanoi/"><h4>View</h4></a>
+
+          <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal-Towers">View More</button>
+
+          <!-- Modal for Towers of Hanoi -->
+          <div id="myModal-Towers" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Towers of Hanoi Game</h4>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Built with: </strong>JQuery.js, HTML5, CSS3, Twitter Bootstrap</p>
+                  <p><strong>Summary: </strong></p>
+                  <p>This application is built to play the game Towers of Hanoi.  The site was built with jQuery.js (which holds all of the logic for the game).  There are also button to show and hide the rules of the game.  A message is displayed if you successfully complete the game.</p>
+                  <button type="button" class="btn btn-default" onclick="location.href='https://ssfiero.github.io/javascript-workbook/apps/08jquery-towers-of-hanoi/'">View Site</button>
+                  <!-- <a href="towers.html">View</a> -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
+
 
         <div class="top-projects col-lg-3 col-sm-6 col-xs-12">
           <div class="top-projects-hov">
-            <a href="contact.html"><img src="./css/img/contact-list.jpg"></a>
+            <img src="./css/img/contact-list.jpg">
           </div>
           <h3>Contact List</h3>
+
+          <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal-Contact">View More</button>
+
+          <!-- Modal for Contact List -->
+          <div id="myModal-Contact" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Contact List Application</h4>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Built with: </strong>React.js, MongoDB, Connects to API, HTML5, CSS3</p>
+                  <p><strong>Summary: </strong></p>
+                  <p>This application is built for the purposes of adding/deleting contacts, and keeping a history of your actions.  I decided to have some fun and go completely full Star Wars theme on this project.  The site also connects to an API.</p>
+                  <button type="button" class="btn btn-default" onclick="location.href='contact.html'">View Site</button>
+                  <!-- <a href="https://ssfiero.github.io/javascript-workbook/apps/08jquery-towers-of-hanoi/"><h4>View Full Site</h4></a> -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -196,6 +397,93 @@
       <p>Luke Stenis - Instructor, Austin Coding Academy</p>
     </div>
   </section>
+
+
+  <!-- Section "street-art" includes carousel -->
+
+    <section id="street-art">
+        <h1>Austin Street Art & Murals</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="css/img-carousel/band-together.jpg">
+              <div class="carousel-caption">
+                <h2>Band Together</h2>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="css/img-carousel/birds.jpg">
+              <div class="carousel-caption">
+                <h2>Birds</h2>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="css/img-carousel/butter-half.jpg">
+              <div class="carousel-caption">
+                <h2>Butter Half</h2>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="css/img-carousel/cash.jpg">
+              <div class="carousel-caption">
+                <h2>Cash</h2>
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
+
+
+
+  <!-- Section "testimonial quotes" is for a testimonial -->
+
+    <section id="quotes">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item">
+              <p>"</p>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
 
 
 <!-- Section "about" -->
@@ -233,9 +521,10 @@
             <i class="fa fa-university fa-4x" aria-hidden="true"></i>
           </span>
           <h2>Education</h2>
+          <p>My first experience with programming was with FoxPro, where I learned how to program a 5 jointed robot at the University of Texas J.J. Pickle Research Center in the Robotics Department.</p>
           <p>Austin Coding Academy</p>
           <p>Received Certificate of Completion March 2017.</p>
-          <p>ACA is a full-stack coding school that teaches web development through part-time classes taught by real developers.  By the end of the advanced class, students are ready for a full-time job as a developer.</p>
+          <p>ACA is a full-stack coding school that teaches web development through part-time classes taught by real developers.  I have shown strong time management skills by managing coding classes in addition to working a full-time job.</p>
           <p>Texas State University</p>
           <p>Bachelor of Business Administration in Finance degree</p>
         </div>
