@@ -365,13 +365,28 @@ Section "quotes"
 #quotes {
   color: #ffffff;
   background-color: #212127;
-  height: 360px;
+  height: 200px;
 }
 
-/*.carousel {
-  height: 360px;
-}*/
+#myCarouselQuotes h2 {
+  text-align: center;
+  font-size: 24px;
+  margin: 0px 0px 10px 0px;
+}
 
+#myCarouselQuotes h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.carousel-indicators-Q {
+  display: none;
+}
+
+#myCarouselQuotes > .carousel-inner > .item {
+  padding: 69px 0px;
+}
 
 
 
@@ -381,8 +396,17 @@ Section "about"
 ==================================
 */
 
+#about {
+  background-image: url("./img/grey-sq-background.jpg");
+  padding-bottom: 10px;
+  background-size: cover;
+  background-color: transparent;
+
+}
+
 #about h1 {
-  margin: 80px 0px 40px 0px;
+  margin: 0px 0px 40px 0px;
+  padding-top: 80px;
   text-align: center;
 }
 
@@ -405,6 +429,11 @@ Section "about"
   background: #25303B;
 }
 
+#timeline a {
+  color: black;
+  text-decoration: none;
+}
+
 #timeline article {
   width: 100%;
   margin: 0 0 20px 0;
@@ -422,7 +451,8 @@ Section "about"
   float: left;
   margin: 5px 0 0 0;
   border-radius: 6px;
-  box-shadow: 10px 10px 10px #656565;
+  box-shadow: 15px 15px 15px #656565;
+  background-color: #fff;
 }
 
 #timeline article div.inner span.icon {
@@ -490,11 +520,11 @@ Section "about"
 }
 
 #timeline article:nth-child(1) div.inner h2 {
-  background: #0F8B68;
+  background: #0C3D4E;
 }
 
 #timeline article:nth-child(1) div.inner h2:after {
-  background: #0F8B68;
+  background: #0C3D4E;
 }
 
 #timeline article:nth-child(2) div.inner h2 {
@@ -506,19 +536,19 @@ Section "about"
 }
 
 #timeline article:nth-child(3) div.inner h2 {
-  background: #ED9459;
+  background: #0C3D4E;
 }
 
 #timeline article:nth-child(3) div.inner h2:after {
-  background: #ED9459;
+  background: #0C3D4E;
 }
 
 #timeline article:nth-child(4) div.inner h2 {
-  background: #0C4E6E;
+  background: #0C3D4E;
 }
 
 #timeline article:nth-child(4) div.inner h2:after {
-  background: #0C4E6E;
+  background: #0C3D4E;
 }
 
 
